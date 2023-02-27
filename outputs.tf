@@ -21,3 +21,7 @@ output "project_hcp_waypoint" {
 output "project_tfc_repo_demo" {
   value = tfe_project.tfc_repo_demo
 }
+
+output "tfc_org_name" {
+  value = tfe_project.hcp_boundary.organization
+}
