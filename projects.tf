@@ -27,3 +27,8 @@ resource "tfe_project" "tfc_repo_demo" {
   organization = var.orgName
   name         = "TFC Repo Demo"
 }
+
+resource "tfe_project" "ansarada" {
+  organization = var.orgName
+  name         = "Ansarada"
+}
