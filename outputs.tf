@@ -22,6 +22,10 @@ output "project_tfc_repo_demo" {
   value = tfe_project.tfc_repo_demo
 }
 
+output "project_ansarada" {
+  value = tfe_project.ansarada
+}
+
 output "tfc_org_name" {
   value = tfe_project.hcp_boundary.organization
 }
