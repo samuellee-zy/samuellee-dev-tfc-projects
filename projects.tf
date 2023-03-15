@@ -28,7 +28,7 @@ resource "tfe_project" "tfc_repo_demo" {
   name         = "TFC Repo Demo"
 }
 
-resource "tfe_project" "ansarada" {
+resource "tfe_project" "customer_demos" {
   organization = var.orgName
-  name         = "Ansarada"
+  name         = "Customer Demos"
 }

@@ -22,8 +22,8 @@ output "project_tfc_repo_demo" {
   value = tfe_project.tfc_repo_demo
 }
 
-output "project_ansarada" {
-  value = tfe_project.ansarada
+output "project_customer_demos" {
+  value = tfe_project.customer_demos
 }
 
 output "tfc_org_name" {
