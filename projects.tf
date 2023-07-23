@@ -21,7 +21,7 @@ resource "tfe_project" "hcp_vault" {
 # resource "tfe_project" "hcp_packer" {
 #   organization = var.orgName
 #   name         = "HCP Packer"
-}
+# }
 
 resource "tfe_project" "tfc_repo_demo" {
   organization = var.orgName
