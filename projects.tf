@@ -28,12 +28,12 @@ resource "tfe_project" "aws_immersion_day" {
 #   name         = "HCP Packer"
 # }
 
-resource "tfe_project" "tfc_repo_demo" {
-  organization = var.orgName
-  name         = "TFC Repo Demo"
-}
+# resource "tfe_project" "tfc_repo_demo" {
+#   organization = var.orgName
+#   name         = "TFC Repo Demo"
+# }
 
-resource "tfe_project" "customer_demos" {
-  organization = var.orgName
-  name         = "Customer Demos"
-}
+# resource "tfe_project" "customer_demos" {
+#   organization = var.orgName
+#   name         = "Customer Demos"
+# }

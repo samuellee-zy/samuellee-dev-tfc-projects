@@ -18,13 +18,13 @@ output "project_hcp_vault" {
 #   value = tfe_project.hcp_waypoint
 # }
 
-output "project_tfc_repo_demo" {
-  value = tfe_project.tfc_repo_demo
-}
+# output "project_tfc_repo_demo" {
+#   value = tfe_project.tfc_repo_demo
+# }
 
-output "project_customer_demos" {
-  value = tfe_project.customer_demos
-}
+# output "project_customer_demos" {
+#   value = tfe_project.customer_demos
+# }
 
 output "project_aws_immersion_day" {
   value = tfe_project.aws_immersion_day
