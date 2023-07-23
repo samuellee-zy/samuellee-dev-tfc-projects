@@ -26,6 +26,10 @@ output "project_customer_demos" {
   value = tfe_project.customer_demos
 }
 
+output "project_customer_demos" {
+  value = tfe_project.aws_immersion_day
+}
+
 # output "tfc_org_name" {
 #   value = tfe_project.hcp_boundary.organization
 # }

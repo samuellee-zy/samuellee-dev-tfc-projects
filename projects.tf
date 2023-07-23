@@ -3,6 +3,11 @@ resource "tfe_project" "hcp_vault" {
   name         = "HCP Vault"
 }
 
+resource "tfe_project" "aws_immersion_day" {
+  organization = var.orgName
+  name         = "AWS Immersion Day"
+}
+
 # resource "tfe_project" "hcp_consul" {
 #   organization = var.orgName
 #   name         = "HCP Consul"
