@@ -26,7 +26,7 @@ output "project_customer_demos" {
   value = tfe_project.customer_demos
 }
 
-output "project_customer_demos" {
+output "project_aws_immersion_day" {
   value = tfe_project.aws_immersion_day
 }
 
