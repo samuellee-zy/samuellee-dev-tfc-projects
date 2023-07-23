@@ -26,6 +26,6 @@ output "project_customer_demos" {
   value = tfe_project.customer_demos
 }
 
-output "tfc_org_name" {
-  value = tfe_project.hcp_boundary.organization
-}
+# output "tfc_org_name" {
+#   value = tfe_project.hcp_boundary.organization
+# }
