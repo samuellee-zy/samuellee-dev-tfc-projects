@@ -5,7 +5,12 @@ resource "tfe_project" "hcp_vault" {
 
 resource "tfe_project" "aws_immersion_day" {
   organization = var.orgName
-  name         = "AWS Immersion Day"
+  name         = "Immersion Days"
+}
+
+resource "tfe_project" "Demos" {
+  organization = var.orgName
+  name         = "Demos"
 }
 
 # resource "tfe_project" "hcp_consul" {
