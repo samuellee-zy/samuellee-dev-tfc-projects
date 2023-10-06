@@ -1,19 +1,19 @@
-resource "tfe_project" "hcp_vault" {
+resource "tfe_project" "hcpVault" {
   organization = var.orgName
   name         = "HCP Vault"
 }
 
-resource "tfe_project" "aws_immersion_day" {
+resource "tfe_project" "awsImmersionDay" {
   organization = var.orgName
   name         = "Immersion Days"
 }
 
-resource "tfe_project" "Demos" {
+resource "tfe_project" "demos" {
   organization = var.orgName
   name         = "Demos"
 }
 
-resource "tfe_project" "Learnings" {
+resource "tfe_project" "learnings" {
   organization = var.orgName
   name         = "Learnings"
 }

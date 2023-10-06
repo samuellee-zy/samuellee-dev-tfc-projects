@@ -10,8 +10,8 @@
 #   value = tfe_project.hcp_packer
 # }
 
-output "project_hcp_vault" {
-  value = tfe_project.hcp_vault
+output "project_hcpVault" {
+  value = tfe_project.hcpVault
 }
 
 # output "project_hcp_waypoint" {
@@ -26,10 +26,18 @@ output "project_hcp_vault" {
 #   value = tfe_project.customer_demos
 # }
 
-output "project_aws_immersion_day" {
-  value = tfe_project.aws_immersion_day
+output "project_awsImmersionDay" {
+  value = tfe_project.awsImmersionDay
 }
 
 # output "tfc_org_name" {
 #   value = tfe_project.hcp_boundary.organization
 # }
+
+output "project_Demos" {
+  value = tfe_project.Demos
+}
+
+output "project_Learnings" {
+  value = tfe_project.Learnings
+}
