@@ -41,3 +41,7 @@ output "project_Demos" {
 output "project_Learnings" {
   value = tfe_project.learnings
 }
+
+output "project_serviceNow" {
+  value = tfe_project.serviceNow
+}
