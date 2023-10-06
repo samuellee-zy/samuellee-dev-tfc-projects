@@ -35,9 +35,9 @@ output "project_awsImmersionDay" {
 # }
 
 output "project_Demos" {
-  value = tfe_project.Demos
+  value = tfe_project.demos
 }
 
 output "project_Learnings" {
-  value = tfe_project.Learnings
+  value = tfe_project.learnings
 }
