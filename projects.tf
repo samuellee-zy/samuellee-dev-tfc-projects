@@ -23,6 +23,11 @@ resource "tfe_project" "serviceNow" {
   name         = "ServiceNow"
 }
 
+resource "tfe_project" "hcpConsul" {
+  organization = var.orgName
+  name         = "HCP Consul"
+}
+
 # resource "tfe_project" "hcp_consul" {
 #   organization = var.orgName
 #   name         = "HCP Consul"

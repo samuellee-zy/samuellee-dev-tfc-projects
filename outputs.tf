@@ -45,3 +45,7 @@ output "project_Learnings" {
 output "project_serviceNow" {
   value = tfe_project.serviceNow
 }
+
+output "project_hcpConsul" {
+  value = tfe_project.hcpConsul
+}
